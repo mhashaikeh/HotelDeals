@@ -1,1 +1,2 @@
-web: java $JAVA_OPTS -cp hotel-deals_webapp/target/hotel_deals.war hotel_deals
+web: sh target/bin/webapp
+web: java -cp hotel-deals_webapp/target/classes/ com.expedia.webapps.controllers.HomeController
