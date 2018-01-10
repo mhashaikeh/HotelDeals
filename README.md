@@ -11,9 +11,8 @@ I will give the details on a Linux Machine.
 
 Assuming the tomcat path is (usr/local/tomcat/)
 
-1- Make a folder (hotel_deals) for the logging into the path: /usr/local/tomcat/logs/
-2- Start the tomcat.
-3- On the command lines enter into the project root path (ex: /home/user/workspace/HotelDeals/).
-4- Execute the maven command (mvn clean install).
-5- Copy the generated war file (/home/user/workspace/HotelDeals/hotel-deals_webapp/target/hotel_deals.war) to the tomcat webapps folder (/usr/local/tomcat/webapps).
-6- Access the application on the browser by typing the following URL (http://localhost:8080/hotel_deals/home).
+1- Start the tomcat.
+2- On the command lines enter into the project root path (ex: /home/user/workspace/HotelDeals/).
+3- Execute the maven command (mvn clean install).
+4- Copy the generated war file (/home/user/workspace/HotelDeals/hotel-deals_webapp/target/hotel_deals.war) to the tomcat webapps folder (/usr/local/tomcat/webapps).
+5- Access the application on the browser by typing the following URL (http://localhost:8080/hotel_deals/home).
